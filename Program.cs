@@ -47,8 +47,8 @@ class DiceSimulator
 
         for (int i = 0; i < numberOfRolls; i++)
         {
-            int die1 = random.Next(1, 7); // 1-6
-            int die2 = random.Next(1, 7); // 1-6
+            int die1 = random.Next(1, 7);
+            int die2 = random.Next(1, 7);
             int sum = die1 + die2;
             rollCounts[sum]++;
         }
